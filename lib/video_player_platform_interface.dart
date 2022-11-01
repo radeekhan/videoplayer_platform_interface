@@ -131,6 +131,7 @@ class DataSource {
     this.uri,
     this.adUri,
     this.secret,
+    this.auth,
     this.formatHint,
     this.asset,
     this.package,
@@ -152,6 +153,8 @@ class DataSource {
   final String? adUri;
 
   final String? secret;
+
+  final String? auth;
 
   /// **Android only**. Will override the platform's generic file format
   /// detection with whatever is set here.
